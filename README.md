@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned about global middleware, which applies to all requests made on a server, and I learned about local middleware, which only applies to requests to which it is explicitly applied.
+
 - [ ] Describe Middleware?
+
+Middleware is code that processes requests in some way before the request handler is called.
 
 - [ ] Describe a Resource?
 
+A resource is basically an object with type, associated data, relationships to other resources, and a set of CRUD operations.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The server can return HTTP response status codes such as 200.
+
 - [ ] How can we partition our application into sub-applications?
+
+We can split up our application using Express Routers for different groups of endpoints.
 
 ## Project Setup
 
